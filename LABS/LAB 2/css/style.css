@@ -1,0 +1,50 @@
+html, body {
+    margin: 0px;
+    background-color: #8f8f8f;
+}
+
+#container {
+    width: 1000px;
+    margin: 0 auto;
+    background-color: #dadada;
+}
+
+ul {
+    background-color: #e42200;
+    padding: 14px 0px 14px 10px;
+    margin-top: 0px;
+}
+
+ul>li {
+    display: inline-block;
+    margin: 0px 12px;
+    cursor: pointer;
+    font-size: 130%;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+footer {
+    font-size: 130%;
+    text-align: center;
+    background-color: #e42200;
+    color: white;
+    padding: 14px 0px;
+
+}
+
+h1 {
+    padding-left: 25px;
+}
+
+img {
+    width: 400px;
+    padding-left: 25px;
+}
+
+p {
+    padding: 0px 25px;
+}

@@ -1,0 +1,7 @@
+<?php
+echo "<h1>Apex Legends</h1>",
+"<img src='images/apexlegends.jpg' alt='image'>";
+
+echo "<p class='desc'>Quisque ut nisl et quam malesuada consectetur ac in massa. Cras eget est euismod dui porta viverra. Phasellus porta est vitae velit gravida lacinia. Sed venenatis euismod maximus. Phasellus quam sem, tempus eleifend enim vitae, laoreet maximus metus. Etiam in massa sem. Praesent fermentum nisl quis eros sollicitudin maximus. Praesent in faucibus arcu. Pellentesque non blandit urna, at lobortis nisl. Etiam eu eros pretium, pulvinar turpis a, placerat metus. Nunc elementum aliquet posuere. Donec consectetur nibh eu ipsum consectetur luctus. Sed nec hendrerit mi. Maecenas pulvinar nisi magna, sit amet placerat lectus rhoncus in. Ut vel mi enim. Pellentesque ac ex porta, rutrum elit a, tincidunt neque.</p>",
+     "<p class='desc'>Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec in mattis dui. Nunc posuere malesuada ligula id placerat. Nulla viverra massa at nibh porttitor venenatis. Maecenas pulvinar fermentum enim, feugiat feugiat magna facilisis eget. Donec a suscipit orci, ac laoreet neque. Morbi ullamcorper at tellus ac vestibulum. Pellentesque et tellus mauris. Sed venenatis ex sed dui sollicitudin porttitor. Sed nec nisi sed libero fermentum molestie. Cras eget sem in nisi sodales ultricies in sit amet nibh. Nunc in sem at lacus luctus bibendum quis quis tellus. Ut ut gravida.</p>"
+?>

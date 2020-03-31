@@ -1,0 +1,7 @@
+<?php
+echo "<h1>Rust</h1>",
+"<img src='images/rust.png' alt='image'>";
+
+echo "<p class='desc'>Morbi rhoncus mollis nisl non pulvinar. Aliquam suscipit iaculis sem, eu aliquam magna congue vel. Maecenas bibendum neque mauris, vel luctus ex dapibus a. Curabitur sagittis dapibus ante nec accumsan. Suspendisse facilisis ante eu vulputate pellentesque. Nunc volutpat nulla mauris, nec interdum neque maximus ac. Suspendisse commodo lorem sed felis lobortis, at fermentum magna vehicula. Maecenas non est eleifend, semper urna in, porta mi. Mauris sapien mauris, vestibulum et justo dignissim, elementum tempus dolor. Mauris quis pretium nisi. Donec purus quam, placerat commodo massa vitae, consectetur vulputate mi. Ut finibus, felis in blandit porta, ligula nisl malesuada nisl, eu dignissim leo tortor in erat. Integer sodales, libero nec rutrum imperdiet, ligula quam rhoncus magna, vel lacinia tortor sem sit amet felis.</p>",
+     "<p class='desc'>Mauris tincidunt justo non blandit porta. Morbi blandit commodo arcu, nec accumsan nisi ultricies nec. Aliquam mattis id justo in viverra. Sed sed sem et dui tristique sollicitudin. Vestibulum efficitur leo sed sem tempor auctor. Maecenas fermentum, purus sed interdum tempus, sapien nibh ornare nunc, lobortis facilisis nisl ex semper nunc. Duis tellus lorem, egestas eu risus et, iaculis malesuada leo. Suspendisse fringilla sollicitudin magna. Aliquam a arcu rutrum, porta lectus ac, eleifend sem. Aliquam auctor ac mi ac.</p>"
+?>

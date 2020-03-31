@@ -1,0 +1,7 @@
+<?php
+echo "<h1>Rocket League</h1>",
+"<img src='images/rocketleague.jpg' alt='image'>";
+
+    echo "<p class='desc'>Nam a interdum lectus. Nam id magna sed purus egestas volutpat vel cursus nisl. Sed a lobortis leo, eget condimentum dolor. Interdum et malesuada fames ac ante ipsum primis in faucibus. Cras erat ex, commodo a suscipit vitae, consequat ut neque. Fusce vel justo nec lectus varius bibendum eu eget erat. In hac habitasse platea dictumst. Proin ut scelerisque nulla. Vestibulum rutrum ullamcorper eleifend. Maecenas aliquam dui a arcu luctus vestibulum. Aliquam sit amet vulputate lorem, sit amet mollis risus. Sed aliquet facilisis accumsan. Phasellus lobortis lorem sed fermentum faucibus.</p>",
+         "<p class='desc'>Suspendisse cursus rhoncus arcu, ut ultricies ligula pulvinar in. Ut non sapien nibh. Aliquam commodo dolor augue, non egestas nunc porta id. Sed lacus mauris, pellentesque quis dapibus nec, fringilla sit amet magna. Duis vitae sapien at purus accumsan mollis non quis diam. Suspendisse sed feugiat massa, bibendum scelerisque lacus. Aliquam auctor elit ipsum, in sodales tortor dapibus ornare. Maecenas sit amet elit mauris. Suspendisse feugiat eleifend dolor in blandit. Praesent quis volutpat dui. Phasellus in massa sapien. Aenean maximus aliquet lorem vel sagittis. Maecenas id lobortis magna. Cras pulvinar tortor a velit vestibulum, a venenatis turpis tempor. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>"
+?>

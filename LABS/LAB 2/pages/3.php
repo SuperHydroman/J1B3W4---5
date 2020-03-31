@@ -1,0 +1,7 @@
+<?php
+echo "<h1>League of Legends</h1>",
+"<img src='images/leagueoflegends.png' alt='image'>";
+
+echo "<p class='desc'>Proin sagittis dolor nec imperdiet porttitor. Aliquam erat lacus, lacinia sed viverra et, aliquam vitae lorem. Suspendisse molestie pulvinar tellus, sit amet porta orci pretium tincidunt. Phasellus vel blandit justo, sed mollis tortor. Ut eget eleifend magna, et bibendum enim. Donec eu tempus arcu, a sodales sem. Aenean scelerisque erat sit amet sagittis sodales. Mauris vitae nulla tempor, feugiat dui ut, viverra risus. Sed eget sagittis tellus. Maecenas in consectetur lacus. Suspendisse nec ultricies dolor, blandit aliquet eros. In vel tristique arcu, a commodo nulla.</p>",
+     "<p class='desc'>Sed iaculis lorem quis enim mollis, sit amet venenatis libero ornare. Pellentesque id arcu ullamcorper, ultricies tortor et, egestas velit. Quisque et lectus felis. Fusce hendrerit efficitur ipsum, ac blandit diam auctor ut. Curabitur fringilla orci vel ipsum rutrum, eget condimentum diam egestas. Sed a dolor non ligula mollis commodo tincidunt sed sem. Vestibulum rhoncus ornare mauris, nec viverra dui lobortis in. Vivamus vel vestibulum purus. Nam lectus nulla, egestas vel neque vel, feugiat facilisis eros. Sed vel ante nec massa dapibus dictum eu tincidunt neque. Etiam rutrum lorem ac rhoncus finibus. Aliquam justo nunc, auctor in lobortis sit amet, imperdiet ut ligula. Morbi sodales, diam non convallis porttitor, lacus metus lacinia lectus, id ultrices.</p>";
+?>
