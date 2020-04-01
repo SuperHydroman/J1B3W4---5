@@ -4,7 +4,7 @@ function databaseConnection() {
     $servername = "localhost";
     $username = "root";
     $password = "";
-    $dbName = "databank_php";
+    $dbName = "j1b3w4-5";
 
     try {
         $conn = new PDO("mysql:host=$servername;dbname=$dbName", $username, $password);
@@ -20,9 +20,9 @@ function databaseConnection() {
 
 }
 
-function retrieveMenuData() {
+function retrieveCharacters() {
     $dbConn = databaseConnection();
-    $sql = 'SELECT id, name FROM subjects';
+    $sql = 'SELECT * FROM characters ORDER BY name ASC';
     $stmt = $dbConn->prepare($sql);
     $stmt->execute();
     $result = $stmt->fetchAll();
@@ -30,22 +30,21 @@ function retrieveMenuData() {
     return $result;
 }
 
-function retrieveSubjectData($id) {
+function retrieveSpecificCharacter($id) {
     $dbConn = databaseConnection();
-    $sql = 'SELECT * FROM subjects WHERE id =:id';
+    $sql = 'SELECT * FROM characters WHERE id=:id';
     $stmt = $dbConn->prepare($sql);
     $stmt->bindParam(':id', $id);
     $stmt->execute();
-    $result = $stmt->fetch();
+    $result = $stmt->fetchAll();
     $dbConn = null;
     return $result;
 }
 
-function getDatabaseAmount() {
+function getAmount() {
     $dbConn = databaseConnection();
-    $sql = 'SELECT COUNT(id) AS AMOUNT FROM subjects';
+    $sql = 'SELECT COUNT(id) AS AMOUNT FROM characters';
     $stmt = $dbConn->prepare($sql);
-    $stmt->bindParam(':id', $id);
     $stmt->execute();
     $result = $stmt->fetch();
     $dbConn = null;

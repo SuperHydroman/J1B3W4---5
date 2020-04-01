@@ -1,11 +1,8 @@
 <?php
-$id = $_GET['id'];
-
 require 'includes/datalayer.php';
+$data;
 
-if ($id > 4) {
-    header("Location: index.php?id=1");
-}
+$id = $_GET['id'];
 ?>
 
 <!doctype html>
@@ -17,14 +14,21 @@ if ($id > 4) {
 </head>
 <body>
     <div id="container">
-        <?php include "includes/header.php"?>
-            <?php
-                foreach ($data as $dbData) {
-                    echo '<h1 id="title">'.$dbData['name'].'<!-- Database title name here --></h1>',
-                            '<img src="images/'.$dbData['image'].'" alt="'.$dbData['name'].' banner">',
-                            $dbData['description'];
-                }
-            ?>
+        <?php include "includes/header.php";?>
+
+        <?php
+            $amount = getDatabaseAmount();
+            if ($id > 0 && $id < $amount['AMOUNT']+1) {
+                $data = retrieveSubjectData($id);
+                echo '<h1 id="title">'.$data['name'].'</h1>',
+                     '<img src="images/'.$data['image'].'" alt="'.$data['name'].' Banner">',
+                     $data['description'];
+            }
+            else {
+                $data = retrieveSubjectData(1);
+            }
+        ?>
+
         <?php include "includes/footer.php"?>
     </div>
 </body>
